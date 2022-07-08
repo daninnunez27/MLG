@@ -346,11 +346,6 @@
     
     
 
-
-
-
-    
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
@@ -1374,7 +1369,7 @@
 
 @media only screen and (max-width: 371px) {
     .cajita2FondoRojo{
-        background-color: rgba(193, 34, 31, 0.815);
+        background-color: rgba(42, 31, 193, 0.815);
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -1385,11 +1380,34 @@
     }
 
     .cajita2{
-        height: 46vh;
+        height: 65vh;
     }
 
     .cajita2FondoRojo{
-        height: 46vh;
+        height: 65vh;
+    }
+
+    .quienesSomosCuadro{
+        height: 70vh;
+    }
+
+    .PropuestaCuadro{
+        height: 50vh;
+    }
+
+    .propuestaImg{
+        height: 50vh;
+        width: 550vw;
+    }
+
+    .extender{
+        margin-top: 2px;
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .textBase{
+        font-size: 15px;
     }
 
     .cajita3FondoRojo{
@@ -1428,12 +1446,6 @@
 
     .colaborador{
         font-size: 23px;
-    }
-
-    .extender{
-        margin-top: 8px;
-        width: 80vw;
-        height: 45vh;
     }
 
     .espacio{
@@ -1534,86 +1546,7 @@
     }
 }
 
-@media only screen and (max-width: 270px) {
-    .cajita2FondoRojo{
-        background-color: rgba(193, 34, 31, 0.815);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .cajita{
-        height: 22vh;
-    }
 
-    .cajita2{
-        height: 33vh;
-    }
-
-    .cajita2FondoRojo{
-        height: 33vh;
-    }
-
-    .cajita3FondoRojo{
-        background-color: rgba(193, 34, 31, 0.815);
-        height: 65vh;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .cajita3{
-        background-image: url("img/fondo.jpg");
-        background-size: cover;
-        height: 58vh;
-        width: 100vw;
-    }
-
-
-    .espacioTrabajo{
-        margin-top: 9%;
-        height: 20vw;
-    }
-
-    .trabajo{
-        width: 60vw;
-        display: flex;
-        margin-bottom: 5%;
-    }
-
-    .propuesta{
-        width: 93vw;
-        display: flex;
-    }
-
-    .colaborador{
-        margin-top: 18px;
-        font-size: 17px;
-    }
-
-    .extender{
-        width: 90vw;
-        height: 45vh;
-    }
-
-    .espacio{
-        height: 85vh;
-    }
-
-    .logosEspacio{
-        height: 15vh;
-    }
-
-    .imagenCabezera{
-        width: 90vw;
-    }
-
-    .logos{
-        width: 90vw;
-    }
-}  
 
 
 
