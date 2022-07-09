@@ -1559,7 +1559,7 @@
 }
 
 
-@media only screen and (max-height: 350px){
+@media only screen and (max-height: 480px){
 
     .logosEspacio{
         height: 0vh;
