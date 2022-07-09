@@ -1499,7 +1499,7 @@
 
     .cajita3FondoRojo{
         background-color: rgba(193, 34, 31, 0.815);
-        height: 600px;
+        height: 550px;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -1510,7 +1510,7 @@
     .cajita3{
         background-image: url("img/fondo.jpg");
         background-size: cover;
-        height: 600px;
+        height: 550px;
         width: 100vw;
     }
 
@@ -1538,7 +1538,7 @@
     .extender{
         margin-top: 2px;
         height: 390px;
-        width: 500px;
+        width: 550px;
     }
 
     .espacio{
