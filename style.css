@@ -1329,7 +1329,7 @@
 
     .extender{
         margin-top: 2px;
-        height: 800px;
+        height: 450px;
         width: 80vw;
     }
 
@@ -1339,7 +1339,7 @@
 
     .cajita3FondoRojo{
         background-color: rgba(193, 34, 31, 0.815);
-        height: 850px;
+        height: 650px;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -1350,7 +1350,7 @@
     .cajita3{
         background-image: url("img/fondo.jpg");
         background-size: cover;
-        height: 850px;
+        height: 650px;
         width: 100vw;
     }
 
@@ -1451,9 +1451,9 @@
     }
 
     .extender{
-        margin-top: 8px;
-        width: 800px;
-        height: 45vh;
+        margin-top: 2px;
+        height: 450px;
+        width: 80vw;
     }
 
     .espacio{
@@ -1499,7 +1499,7 @@
 
     .cajita3FondoRojo{
         background-color: rgba(193, 34, 31, 0.815);
-        height: 80vh;
+        height: 600px;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -1510,7 +1510,7 @@
     .cajita3{
         background-image: url("img/fondo.jpg");
         background-size: cover;
-        height: 60vh;
+        height: 600px;
         width: 100vw;
     }
 
@@ -1536,9 +1536,9 @@
     }
 
     .extender{
-        margin-top: 8px;
+        margin-top: 2px;
+        height: 390px;
         width: 80vw;
-        height: 55vh;
     }
 
     .espacio{
