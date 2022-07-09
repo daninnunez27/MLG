@@ -7,7 +7,7 @@
     }
 
     @font-face {
-        font-family: 'Forte'; /*a name to be used later*/
+        font-family: 'ForteDani'; /*a name to be used later*/
         src: url('font/FORTE.TTF'); /*URL to font*/
     }
 
@@ -330,7 +330,7 @@
         margin-top: 2%;
         color: white;
         font-size: 60px;
-        font-family: 'Forte', sans-serif;  
+        font-family: 'ForteDani', sans-serif;  
     }
 
 
