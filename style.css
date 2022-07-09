@@ -6,6 +6,11 @@
         position: absolute;
     }
 
+    @font-face {
+        font-family: 'Forte'; /*a name to be used later*/
+        src: url('font/FORTE.TTF'); /*URL to font*/
+    }
+
     .btn-enviar{
         background-color: rgba(227,6,19,255); /* Green */
         border: none;
