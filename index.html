@@ -103,7 +103,7 @@
         <div class="extender" data-aos="zoom-out">
             <form>
               <div class="mb-3">
-                <input type="email" placeholder="Nombre y apellido" class="form-control baseInput" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input onfocus="onfocus()" type="email" placeholder="Nombre y apellido" class="form-control baseInput" id="exampleInputEmail1" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
                 <input type="email" placeholder="Cedula" class="form-control baseInput" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -136,12 +136,14 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
+        console.log("sadsahdjkashdjkhasjkd");
           document.ontouchmove = function(e){
                e.preventDefault();
                }
       });
 
       input.onfocus = function () {
+        console.log("sadsahdjkashdjkhasjkd");
           window.scrollTo(0, 0);
           document.body.scrollTop = 0;
       }
@@ -172,17 +174,6 @@
         anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
       });
-
-      $(document).ready(function() {
-          document.ontouchmove = function(e){
-                e.preventDefault();
-                }
-      });
-
-      input.onfocus = function () {
-        window.scrollTo(0, 0);
-        document.body.scrollTop = 0;
-      }
     </script>
     <script type="text/javascript"></script>
   </body>
