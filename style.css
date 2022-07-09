@@ -1559,6 +1559,21 @@
 }
 
 
+@media only screen and (max-height: 350px){
+
+    .logosEspacio{
+        height: 0vh;
+        visibility: hidden;
+    }
+
+    .logos{
+        width: 0vw;
+        visibility: hidden;
+    }
+}
+
+
+
 
 
 
