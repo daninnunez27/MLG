@@ -154,24 +154,24 @@
         <div class="extender" data-aos="zoom-out">
             <form>
               <div class="mb-3">
-                <input type="email" placeholder="Nombre y apellido" class="form-control baseInput" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="text" placeholder="Nombre y apellido" class="form-control baseInput" id="name" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
-                <input type="email" placeholder="Cedula" class="form-control baseInput" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="text" placeholder="Cedula" class="form-control baseInput" id="cedula" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
-                <input type="email" placeholder="Telefono" class="form-control baseInput" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="number" placeholder="Telefono" class="form-control baseInput" id="tel" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
-                <input type="email" placeholder="Correo Electronico" class="form-control baseInput" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" placeholder="Correo Electronico" class="form-control baseInput" id="correo" aria-describedby="emailHelp">
               </div>
               <div class="mb-3">
-                <input type="password" placeholder="Contraseña" class="form-control baseInput" id="exampleInputPassword1">
+                <input type="password" placeholder="Contraseña" class="form-control baseInput" id="pass">
               </div>
               <div class="mb-3">
-                <input type="password" placeholder="Confirmar Contraseña" class="form-control baseInput" id="exampleInputPassword1" >
+                <input type="password" placeholder="Confirmar Contraseña" class="form-control baseInput" id="confirmPass" >
               </div>
-              <button type="submit" class="btn-enviar">Registrarme</button>
+              <div onclick="llamarApi()" class="btn-enviar">Registrarme</div>
             </form>
         </div>
       
@@ -186,6 +186,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+
+      async function llamarApi() {
+
+        /*
+         fetch(
+          'https://pokeapi.co/api/v2/pokemon/ditto',
+          {
+            method: 'POST',
+          }
+        */
+        let resp;
+        console.log(document.getElementById("name").value);
+        await fetch(
+          'https://pokeapi.co/api/v2/pokemon/ditto',
+        )
+        .then(response => resp = response.json())
+        .then(data => console.log(data));
+        console.log(resp);
+      }
 
       AOS.init();
 

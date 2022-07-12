@@ -236,6 +236,7 @@
 
     .btn-enviar:hover{
         background-color: rgb(131, 15, 15);
+        cursor: pointer;
     }
 
     .btn-enviar:active{
