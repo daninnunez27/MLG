@@ -181,7 +181,7 @@
       
     </div>
 
-    <!-- MDB -->
+    <!-- MDB   l8h1RjhiChG# -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -189,21 +189,48 @@
 
       async function llamarApi() {
 
-        /*
-         fetch(
-          'https://pokeapi.co/api/v2/pokemon/ditto',
-          {
-            method: 'POST',
+        if (document.getElementById("name").value != "" && 
+        document.getElementById("correo").value != "" &&
+        document.getElementById("pass").value != "" &&
+        document.getElementById("cedula").value != "" &&
+        document.getElementById("tel").value != "" &&
+        document.getElementById("confirmPass").value != "") {
+          if (document.getElementById("pass").value == document.getElementById("confirmPass").value) {
+            let resp;
+            console.log(document.getElementById("name").value);
+            let user = {
+              nombreApellido: `${document.getElementById("name").value}`,
+              correo: `${document.getElementById("correo").value}`,
+              contrasenna: `${document.getElementById("pass").value}`,
+              cedula: `${document.getElementById("cedula").value}`,
+              telefono: `${document.getElementById("tel").value}`,
+            };
+
+            try {
+              await fetch(
+                'http://190.128.197.149:4500/registrarWeb',
+                {
+                  method: 'POST',
+                  headers:{
+                    "Accept":"application/json",
+                    "Content-Type": "application/json",
+                    "Access-Control-Origin": "*"
+                  },
+                  body:JSON.stringify(user)
+                }
+              )
+              .then(alert("Usted se a registrado con exito, por favor revise su correo, verifique la carpeta de spam"))
+            } catch (error) {
+              alert("Vuelva a intentar por favor")
+            }
+          } else {
+            alert("las contraseñas no coinciden")
           }
-        */
-        let resp;
-        console.log(document.getElementById("name").value);
-        await fetch(
-          'https://pokeapi.co/api/v2/pokemon/ditto',
-        )
-        .then(response => resp = response.json())
-        .then(data => console.log(data));
-        console.log(resp);
+        }else{
+          alert("Complete todos los campos")
+        }
+        
+        
       }
 
       AOS.init();
