@@ -29,8 +29,8 @@
 
     /*QuienSoy*/
     .cajitaQuienSoy{
-        background-image: url("img/fondo.jpg");
-        background-size: cover;
+        background-image: url("img/yanduti2.jpg");
+        background-size: contain;
         width: 100vw;
     }
 
@@ -68,8 +68,8 @@
 
     /*Campana*/
     .cajitaCampaña{
-        background-image: url("img/fondo.jpg");
-        background-size: cover;
+        background-image: url("img/yanduti2.jpg");
+        background-size: contain;
         width: 100vw;
     }
 
@@ -94,7 +94,7 @@
 
     /*Propuesta ----------------------------------*/
     .cajitaPropuestas{
-        background-image: url("img/fondo.jpg");
+        background-image: url("img/yanduti2.jpg");
         width: 100vw;
         background-size: contain;
         
@@ -141,7 +141,7 @@
     /*Carrera ----------------------------------*/
 
     .cajitaCarrera{
-        background-image: url("img/fondo.jpg");
+        background-image: url("img/yanduti2.jpg");
         width: 100vw;
         background-size: contain;
     }
@@ -180,7 +180,7 @@
     /*formulario*/
 
     .cajitaFormulario{
-        background-image: url("img/fondo.jpg");
+        background-image: url("img/yanduti2.jpg");
         width: 100vw;
         background-size: contain;
         
