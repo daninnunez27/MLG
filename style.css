@@ -376,7 +376,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 200px) {
     .cabezera{
-        background-color: rgba(193, 34, 31, 0.815);
+        background-color: white;
         min-height: 50vh;
     }
 
@@ -437,7 +437,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 660px) {
     .cabezera{
-        background-color: rgba(193, 34, 31, 0.815);
+        background-color: white;
         min-height: 70vh;
     }
 
@@ -497,7 +497,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .cabezera{
-        background-color: rgba(193, 34, 31, 0.815);
+        background-color: white;
         min-height: 80vh;
     }
 
@@ -554,7 +554,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 850px) {
     .cabezera{
-        background-color: rgba(193, 34, 31, 0.815);
+        background-color: white;
         min-height: 80vh;
     }
 
@@ -619,7 +619,7 @@
 @media only screen and (min-width: 992px) {
     .cabezera{
         min-height: 90vh;
-        background-color: rgba(193, 34, 31, 0.815);
+        background-color: white;
     }
 
     .imagenCabezera{
